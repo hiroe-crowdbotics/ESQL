@@ -60,7 +60,7 @@ jobs:
       # Build documentation
       - name: Build documentation
         run: |
-          cp $COBOL4J_LIBCOBJ_JAR_PATH dblibj/lib
+          cp "$COBOL4J_LIBCOBJ_JAR_PATH" dblibj/lib
           cd dblibj/
           sbt doc
 
