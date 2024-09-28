@@ -41,5 +41,5 @@ jobs:
 
     - name: Publish artifacts
       run: |
-        gh release upload ${{ github.ref }} ocesql.exe --clobber
-        gh release upload ${{ github.ref }} ocesql4j.jar --clobber
+        gh release upload ${{ github.ref_name }} ocesql.exe --clobber
+        gh release upload ${{ github.ref_name }} ocesql4j.jar --clobber
