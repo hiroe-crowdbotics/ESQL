@@ -102,14 +102,14 @@ jobs:
       shell: cmd
 
     - name: Upload ocesql.exe
-      if: ${{ github.event.inputs.upload-artifacts }}
+      if: ${{ inputs.upload-artifacts }}
       uses: actions/upload-artifact@v4
       with:
         name: ocesql.exe
         path: win\x64\Release\ocesql.exe
 
     - name: Upload ocesql.exe
-      if: ${{ github.event.inputs.upload-artifacts }}
+      if: ${{ inputs.upload-artifacts }}
       uses: actions/upload-artifact@v4
       with:
         name: ocesql4j.jar

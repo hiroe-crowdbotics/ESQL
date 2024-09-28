@@ -34,7 +34,7 @@ jobs:
       with:
         name: ocesql.exe
 
-    - name: Download ocesql.exe
+    - name: Download ocesql4j.jar
       uses: actions/download-artifact@v4
       with:
         name: ocesql4j.jar
