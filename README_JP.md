@@ -22,10 +22,9 @@ Open COBOL ESQL 4Jは[opensource COBOL 4J](https://github.com/opensourcecobol/op
 
 ## 必須ソフトウェア
 
-* データベース
-  Open COBOL ESQL 4Jは現在、PostgreSQLデータベースのみをサポートしています。
+* PostgreSQLデータベース
 
-* [opensource COBOL 4J](https://github.com/opensourcecobol/opensourcecobol4j) v1.1.12 or later.
+* [opensource COBOL 4J](https://github.com/opensourcecobol/opensourcecobol4j) v1.1.2またはそれ以降。
 
 * [sbt](https://www.scala-sbt.org/).
 
@@ -36,7 +35,7 @@ Open COBOL ESQL 4Jは[opensource COBOL 4J](https://github.com/opensourcecobol/op
 
 [opensource COBOL 4JのREADME.md](https://github.com/opensourcecobol/opensourcecobol4j/blob/develop/README_JP.md)を参照してください。
 
-### ファイルのダウンロード
+### Open COBOL ESQL 4Jのダウンロード
 
 下記のコマンドを実行してOpen COBOL ESQL 4Jをダウンロードします。
 
@@ -60,7 +59,7 @@ cd Open-COBOL-ESQL-4j-1.1.1/
 cp /usr/lib/opensourcecobol4j/libcobj.jar dblibj/lib/
 ```
 
-opensource COBOL 4Jをインストール済みの場合、`/usr/lib/opensourcecobol4j/libcobj.jar`が存在します。
+opensource COBOL 4Jをインストール済みの場合、既に`/usr/lib/opensourcecobol4j/libcobj.jar`が存在します。
 `find /usr/lib/ -name libcobj.jar`を実行して上記のパスが表示されることを確認してください。
 
 #### `postgresql.jar`
@@ -93,7 +92,7 @@ make install
 
 ### `$CLASSPATH`の設定
 
-`/usr/lib/Open-COBOL-ESQL-4j/ocesql4j.jar`と`/usr/lib/Open-COBOL-ESQL-4j/postgresql.jar`を環境変数$CLASSPATHに追加してください。
+`/usr/lib/Open-COBOL-ESQL-4j/ocesql4j.jar`と`/usr/lib/Open-COBOL-ESQL-4j/postgresql.jar`を環境変数CLASSPATHに追加してください。
 
 ```sh
 export CLASSPATH="$CLASSPATH":/usr/lib/Open-COBOL-ESQL-4j/ocesql4j.jar:/usr/lib/Open-COBOL-ESQL-4j/postgresql.jar

@@ -21,10 +21,9 @@ Open COBOL ESQL 4J (OCESQL 4J) consits of open-source Embedded SQL pre-compiler 
 
 ## Requirements
 
-* Open-source database.
-  * OCESQL 4J currently supports PostgreSQL database only.
+* PostgreSQL Database
 
-* [opensource COBOL 4j](https://github.com/opensourcecobol/opensourcecobol4j) v1.1.12 or later.
+* [opensource COBOL 4j](https://github.com/opensourcecobol/opensourcecobol4j) v1.1.2 or later.
 
 * [sbt](https://www.scala-sbt.org/).
 
@@ -35,7 +34,7 @@ Open COBOL ESQL 4J (OCESQL 4J) consits of open-source Embedded SQL pre-compiler 
 
 See [README.md of opensource COBOL 4J](https://github.com/opensourcecobol/opensourcecobol4j/blob/develop/README.md).
 
-###D Download the content
+## Download Open COBOL ESQL 4J
 
 Run the following commands to download Open COBOL ESQL 4J.
 
